@@ -3,6 +3,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:siak_baitulhikmah/features/pemasukan/pemasukan_page.dart';
+import 'package:siak_baitulhikmah/features/pengeluaran/pengeluaran_page.dart';
 import 'package:siak_baitulhikmah/features/users/user_not_found_page.dart';
 
 import 'features/dashboard/dashbord_page.dart';
@@ -46,6 +47,13 @@ final router = GoRouter(
       routes: [
         TypedGoRoute<PemasukanPageRoute>(
           path: '/pemasukan',
+        ),
+      ],
+    ),
+    TypedStatefulShellBranch(
+      routes: [
+        TypedGoRoute<PengeluaranPageRoute>(
+          path: '/pengeluaran',
         ),
       ],
     ),
@@ -106,5 +114,14 @@ class UserPageRoute extends GoRouteData {
     return user == null
         ? UserNotFoundPage(userId: userId)
         : UserPage(user: user);
+  }
+}
+
+class PengeluaranPageRoute extends GoRouteData {
+  const PengeluaranPageRoute();
+
+  @override
+  Widget build(BuildContext context, GoRouterState state) {
+    return const PengeluaranPage();
   }
 }
