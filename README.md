@@ -1,1 +1,19 @@
+# SIAK TK Baitul Hikmah
 
+Short description or summary of the project.
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+- Flutter SDK installed. [Install Flutter](https://flutter.dev/docs/get-started/install)
+- Web development dependencies configured. [Flutter for Web](https://flutter.dev/docs/get-started/web)
+
+### Installation
+
+1. Clone the repository.
+
+   ```bash
+   git clone https://github.com/fikryahaykhal/siak-baitulhikmah

@@ -16,7 +16,9 @@ class PengeluaranPage extends StatelessWidget {
     final responsive = ResponsiveBreakpoints.of(context);
     const summaryCards = [
       SummaryCard(
-          title: 'Total Pengeluaran Bulan Ini', value: 'Rp. 12,000,000'),
+        title: 'Total Pengeluaran Bulan Ini',
+        value: 'Rp. 12,000,000',
+      ),
     ];
 
     return ContentView(
