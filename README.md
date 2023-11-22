@@ -18,17 +18,15 @@ These instructions will get you a copy of the project up and running on your loc
    ```bash
    git clone https://github.com/fikryahaykhal/siak-baitulhikmah
 
+
 2. Navigate to the project directory.
    ```bash
    cd your_project
 
 3. Get dependencies.
-```bash
-flutter pub get
+    ```bash
+    flutter pub get
 
-
-
-4. Running the App
-To run the app on a web server:
-```bash
-flutter run -d chrome 
+4. Running the App.
+    ```bash
+    flutter run -d chrome 
