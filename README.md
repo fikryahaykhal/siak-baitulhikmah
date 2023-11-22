@@ -24,10 +24,6 @@ These instructions will get you a copy of the project up and running on your loc
 
 3. Get dependencies.
 ```bash
-flutter pub get
+flutter pub get```
 
-
-4. Running the App
-To run the app on a web server:
-```bash
-flutter run -d chrome
+4. 
