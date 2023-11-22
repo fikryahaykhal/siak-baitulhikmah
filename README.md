@@ -23,9 +23,8 @@ These instructions will get you a copy of the project up and running on your loc
    cd your_project
 
 3. Get dependencies.
-\```bash
+```bash
 flutter pub get
-\```
 
 4.Running the App
 To run the app on a web server:
