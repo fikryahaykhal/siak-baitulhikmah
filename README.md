@@ -26,6 +26,7 @@ These instructions will get you a copy of the project up and running on your loc
 ```bash
 flutter pub get
 
+
 4. Running the App
 To run the app on a web server:
 ```bash
