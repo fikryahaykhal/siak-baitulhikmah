@@ -37,6 +37,14 @@ RouteBase get $shellRouteData => StatefulShellRouteData.$route(
             ),
           ],
         ),
+        StatefulShellBranchData.$branch(
+          routes: [
+            GoRouteData.$route(
+              path: '/pengeluaran',
+              factory: $PengeluaranPageRouteExtension._fromState,
+            ),
+          ],
+        ),
       ],
     );
 
@@ -106,6 +114,24 @@ extension $PemasukanPageRouteExtension on PemasukanPageRoute {
 
   String get location => GoRouteData.$location(
         '/pemasukan',
+      );
+
+  void go(BuildContext context) => context.go(location);
+
+  Future<T?> push<T>(BuildContext context) => context.push<T>(location);
+
+  void pushReplacement(BuildContext context) =>
+      context.pushReplacement(location);
+
+  void replace(BuildContext context) => context.replace(location);
+}
+
+extension $PengeluaranPageRouteExtension on PengeluaranPageRoute {
+  static PengeluaranPageRoute _fromState(GoRouterState state) =>
+      const PengeluaranPageRoute();
+
+  String get location => GoRouteData.$location(
+        '/pengeluaran',
       );
 
   void go(BuildContext context) => context.go(location);
