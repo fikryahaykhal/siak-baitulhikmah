@@ -2,9 +2,12 @@ import 'package:collection/collection.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
+import 'package:siak_baitulhikmah/features/dsp_spp/dsp_spp_page.dart';
 import 'package:siak_baitulhikmah/features/pemasukan/pemasukan_page.dart';
 import 'package:siak_baitulhikmah/features/pengeluaran/pengeluaran_page.dart';
+import 'package:siak_baitulhikmah/features/rekap_kas/pemasukan_page.dart';
 import 'package:siak_baitulhikmah/features/users/user_not_found_page.dart';
+import 'package:siak_baitulhikmah/widgets/navigation/login_page.dart';
 
 import 'features/dashboard/dashbord_page.dart';
 import 'features/users/dummy_users.dart';
@@ -27,7 +30,7 @@ final router = GoRouter(
     TypedStatefulShellBranch(
       routes: [
         TypedGoRoute<DashboardRoute>(
-          path: routerInitialLocation,
+          path: '/dashboard',
         ),
       ],
     ),
@@ -57,6 +60,34 @@ final router = GoRouter(
         ),
       ],
     ),
+    TypedStatefulShellBranch(
+      routes: [
+        TypedGoRoute<DspSppPageRoute>(
+          path: '/dspdanspp',
+        ),
+      ],
+    ),
+    TypedStatefulShellBranch(
+      routes: [
+        TypedGoRoute<RekapKasPageRoute>(
+          path: '/rekapkas',
+        ),
+      ],
+    ),
+    TypedStatefulShellBranch(
+      routes: [
+        TypedGoRoute<DspSppPageRoute>(
+          path: '/dspdanspp',
+        ),
+      ],
+    ),
+    TypedStatefulShellBranch(
+      routes: [
+        TypedGoRoute<SignInPageRoute>(
+          path: routerInitialLocation,
+        ),
+      ],
+    ),
   ],
 )
 class ShellRouteData extends StatefulShellRouteData {
@@ -82,6 +113,15 @@ class DashboardRoute extends GoRouteData {
   @override
   Widget build(BuildContext context, GoRouterState state) {
     return const DashBoardPage();
+  }
+}
+
+class DspSppPageRoute extends GoRouteData {
+  const DspSppPageRoute();
+
+  @override
+  Widget build(BuildContext context, GoRouterState state) {
+    return const DspSppPage();
   }
 }
 
@@ -123,5 +163,23 @@ class PengeluaranPageRoute extends GoRouteData {
   @override
   Widget build(BuildContext context, GoRouterState state) {
     return const PengeluaranPage();
+  }
+}
+
+class RekapKasPageRoute extends GoRouteData {
+  const RekapKasPageRoute();
+
+  @override
+  Widget build(BuildContext context, GoRouterState state) {
+    return const RekapKasPage();
+  }
+}
+
+class SignInPageRoute extends GoRouteData {
+  const SignInPageRoute();
+
+  @override
+  Widget build(BuildContext context, GoRouterState state) {
+    return const SignInScreen();
   }
 }

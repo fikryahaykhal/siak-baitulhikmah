@@ -1,4 +1,10 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
 part of 'router.dart';
+
+// **************************************************************************
+// GoRouterGenerator
+// **************************************************************************
 
 List<RouteBase> get $appRoutes => [
       $shellRouteData,
@@ -10,7 +16,7 @@ RouteBase get $shellRouteData => StatefulShellRouteData.$route(
         StatefulShellBranchData.$branch(
           routes: [
             GoRouteData.$route(
-              path: '/',
+              path: '/dashboard',
               factory: $DashboardRouteExtension._fromState,
             ),
           ],
@@ -45,6 +51,38 @@ RouteBase get $shellRouteData => StatefulShellRouteData.$route(
             ),
           ],
         ),
+        StatefulShellBranchData.$branch(
+          routes: [
+            GoRouteData.$route(
+              path: '/dspdanspp',
+              factory: $DspSppPageRouteExtension._fromState,
+            ),
+          ],
+        ),
+        StatefulShellBranchData.$branch(
+          routes: [
+            GoRouteData.$route(
+              path: '/rekapkas',
+              factory: $RekapKasPageRouteExtension._fromState,
+            ),
+          ],
+        ),
+        StatefulShellBranchData.$branch(
+          routes: [
+            GoRouteData.$route(
+              path: '/dspdanspp',
+              factory: $DspSppPageRouteExtension._fromState,
+            ),
+          ],
+        ),
+        StatefulShellBranchData.$branch(
+          routes: [
+            GoRouteData.$route(
+              path: '/',
+              factory: $SignInPageRouteExtension._fromState,
+            ),
+          ],
+        ),
       ],
     );
 
@@ -58,7 +96,7 @@ extension $DashboardRouteExtension on DashboardRoute {
       const DashboardRoute();
 
   String get location => GoRouteData.$location(
-        '/',
+        '/dashboard',
       );
 
   void go(BuildContext context) => context.go(location);
@@ -132,6 +170,60 @@ extension $PengeluaranPageRouteExtension on PengeluaranPageRoute {
 
   String get location => GoRouteData.$location(
         '/pengeluaran',
+      );
+
+  void go(BuildContext context) => context.go(location);
+
+  Future<T?> push<T>(BuildContext context) => context.push<T>(location);
+
+  void pushReplacement(BuildContext context) =>
+      context.pushReplacement(location);
+
+  void replace(BuildContext context) => context.replace(location);
+}
+
+extension $DspSppPageRouteExtension on DspSppPageRoute {
+  static DspSppPageRoute _fromState(GoRouterState state) =>
+      const DspSppPageRoute();
+
+  String get location => GoRouteData.$location(
+        '/dspdanspp',
+      );
+
+  void go(BuildContext context) => context.go(location);
+
+  Future<T?> push<T>(BuildContext context) => context.push<T>(location);
+
+  void pushReplacement(BuildContext context) =>
+      context.pushReplacement(location);
+
+  void replace(BuildContext context) => context.replace(location);
+}
+
+extension $RekapKasPageRouteExtension on RekapKasPageRoute {
+  static RekapKasPageRoute _fromState(GoRouterState state) =>
+      const RekapKasPageRoute();
+
+  String get location => GoRouteData.$location(
+        '/rekapkas',
+      );
+
+  void go(BuildContext context) => context.go(location);
+
+  Future<T?> push<T>(BuildContext context) => context.push<T>(location);
+
+  void pushReplacement(BuildContext context) =>
+      context.pushReplacement(location);
+
+  void replace(BuildContext context) => context.replace(location);
+}
+
+extension $SignInPageRouteExtension on SignInPageRoute {
+  static SignInPageRoute _fromState(GoRouterState state) =>
+      const SignInPageRoute();
+
+  String get location => GoRouteData.$location(
+        '/',
       );
 
   void go(BuildContext context) => context.go(location);

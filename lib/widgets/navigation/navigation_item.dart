@@ -7,9 +7,8 @@ enum NavigationItem {
   dataPemasukan(iconData: Icons.list_outlined),
   dataPengeluaran(iconData: Icons.list_outlined),
   dataDspDanSpp(iconData: Icons.list_outlined),
-  data(iconData: Icons.list_outlined),
-  dataJuga(iconData: Icons.list_outlined),
-  ;
+  rekapitulasiKas(iconData: Icons.list_outlined),
+  allReports(iconData: Icons.receipt_long_rounded);
 
   const NavigationItem({required this.iconData});
   final IconData iconData;

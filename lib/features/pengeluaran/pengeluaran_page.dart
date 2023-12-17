@@ -88,7 +88,7 @@ class _TableView extends StatelessWidget {
           if (vicinity.yIndex == 0) {
             switch (vicinity.xIndex) {
               case 0:
-                label = 'ID Pemasukan';
+                label = 'ID Pengeluaran';
               case 1:
                 label = 'Kategori';
               case 2:

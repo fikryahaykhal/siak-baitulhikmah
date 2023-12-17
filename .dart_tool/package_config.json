@@ -32,6 +32,12 @@
       "languageVersion": "2.18"
     },
     {
+      "name": "auto_route",
+      "rootUri": "file:///Users/rz-dsi/.pub-cache/hosted/pub.dev/auto_route-7.8.4",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
       "name": "boolean_selector",
       "rootUri": "file:///Users/rz-dsi/.pub-cache/hosted/pub.dev/boolean_selector-2.1.1",
       "packageUri": "lib/",
@@ -656,7 +662,7 @@
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2023-11-21T18:07:35.627180Z",
+  "generated": "2023-12-05T03:09:02.488323Z",
   "generator": "pub",
   "generatorVersion": "3.1.5"
 }
