@@ -12,6 +12,7 @@
 /Users/rz-dsi/.pub-cache/hosted/pub.dev/analyzer-5.13.0/LICENSE
 /Users/rz-dsi/.pub-cache/hosted/pub.dev/args-2.4.2/LICENSE
 /Users/rz-dsi/.pub-cache/hosted/pub.dev/async-2.11.0/LICENSE
+/Users/rz-dsi/.pub-cache/hosted/pub.dev/auto_route-7.8.4/LICENSE
 /Users/rz-dsi/.pub-cache/hosted/pub.dev/boolean_selector-2.1.1/LICENSE
 /Users/rz-dsi/.pub-cache/hosted/pub.dev/build-2.4.1/LICENSE
 /Users/rz-dsi/.pub-cache/hosted/pub.dev/build_config-1.1.1/LICENSE
@@ -1312,12 +1313,14 @@
 /Users/rz-dsi/Documents/siak-baitulhikmah/lib/features/dashboard/dashbord_page.dart
 /Users/rz-dsi/Documents/siak-baitulhikmah/lib/features/dashboard/dummy_inventories.dart
 /Users/rz-dsi/Documents/siak-baitulhikmah/lib/features/dashboard/inventory.dart
+/Users/rz-dsi/Documents/siak-baitulhikmah/lib/features/dsp_spp/dsp_spp_page.dart
 /Users/rz-dsi/Documents/siak-baitulhikmah/lib/features/pemasukan/dummy_pemasukan.dart
 /Users/rz-dsi/Documents/siak-baitulhikmah/lib/features/pemasukan/pemasukan.dart
 /Users/rz-dsi/Documents/siak-baitulhikmah/lib/features/pemasukan/pemasukan_page.dart
 /Users/rz-dsi/Documents/siak-baitulhikmah/lib/features/pengeluaran/dummy_pengeluaran.dart
 /Users/rz-dsi/Documents/siak-baitulhikmah/lib/features/pengeluaran/pengeluaran.dart
 /Users/rz-dsi/Documents/siak-baitulhikmah/lib/features/pengeluaran/pengeluaran_page.dart
+/Users/rz-dsi/Documents/siak-baitulhikmah/lib/features/rekap_kas/rekap_kas_page.dart
 /Users/rz-dsi/Documents/siak-baitulhikmah/lib/features/users/dummy_users.dart
 /Users/rz-dsi/Documents/siak-baitulhikmah/lib/features/users/user.dart
 /Users/rz-dsi/Documents/siak-baitulhikmah/lib/features/users/user_not_found_page.dart
@@ -1328,6 +1331,9 @@
 /Users/rz-dsi/Documents/siak-baitulhikmah/lib/router.g.dart
 /Users/rz-dsi/Documents/siak-baitulhikmah/lib/theme.dart
 /Users/rz-dsi/Documents/siak-baitulhikmah/lib/widgets/content_view.dart
+/Users/rz-dsi/Documents/siak-baitulhikmah/lib/widgets/custom_button.dart
+/Users/rz-dsi/Documents/siak-baitulhikmah/lib/widgets/custom_textfield.dart
+/Users/rz-dsi/Documents/siak-baitulhikmah/lib/widgets/navigation/login_page.dart
 /Users/rz-dsi/Documents/siak-baitulhikmah/lib/widgets/navigation/navigation.dart
 /Users/rz-dsi/Documents/siak-baitulhikmah/lib/widgets/navigation/navigation_app_bar.dart
 /Users/rz-dsi/Documents/siak-baitulhikmah/lib/widgets/navigation/navigation_item.dart
@@ -1336,5 +1342,7 @@
 /Users/rz-dsi/Documents/siak-baitulhikmah/lib/widgets/navigation/theme_mode_button.dart
 /Users/rz-dsi/Documents/siak-baitulhikmah/lib/widgets/page_header.dart
 /Users/rz-dsi/Documents/siak-baitulhikmah/lib/widgets/summary_card.dart
+/Users/rz-dsi/Documents/siak-baitulhikmah/lib/widgets/text_widget.dart
 /Users/rz-dsi/Documents/siak-baitulhikmah/lib/widgets/widgets.dart
+/Users/rz-dsi/Documents/siak-baitulhikmah/lib/widgets/wsized.dart
 /Users/rz-dsi/Documents/siak-baitulhikmah/pubspec.yaml

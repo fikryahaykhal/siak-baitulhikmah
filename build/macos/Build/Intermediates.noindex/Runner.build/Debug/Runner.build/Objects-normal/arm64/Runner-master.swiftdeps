@@ -1,8 +1,8 @@
 version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
 options: "cbfcbba054c83feacd7a398f8beda69aa79fc6c37e63f8abe668a47dc892d760"
-build_start_time: [1701749566, 8676000]
-build_end_time: [1701749569, 548589000]
+build_start_time: [1702792264, 504698000]
+build_end_time: [1702792267, 878633000]
 inputs:
-  "/Users/rz-dsi/Documents/siak-baitulhikmah/macos/Flutter/GeneratedPluginRegistrant.swift": [1701749546, 217890537]
+  "/Users/rz-dsi/Documents/siak-baitulhikmah/macos/Flutter/GeneratedPluginRegistrant.swift": [1702792233, 920954331]
   "/Users/rz-dsi/Documents/siak-baitulhikmah/macos/Runner/AppDelegate.swift": [1700259844, 0]
   "/Users/rz-dsi/Documents/siak-baitulhikmah/macos/Runner/MainFlutterWindow.swift": [1700259844, 0]
